@@ -4,6 +4,6 @@ variable "project_id" {
 }
 
 variable "location" {
-  description = "Location of container registry"
+  description = "Location of Artifact Registry"
   type        = string
 }
