@@ -106,8 +106,8 @@ module "vpc-module" {
 # }
 
 
-module "container-registry" {
-  source     = "./modules/container_registry"
+module "artifact-registry" {
+  source     = "./modules/artifact_registry"
   project_id = var.project_id
   location   = var.location
   depends_on = [module.enable-apis, module.assured-workload]
